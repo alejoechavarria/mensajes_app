@@ -35,6 +35,9 @@ public class Inicio {
                 case 4:
                     MensajesService.borrarMensaje();
                     break;
+                case 5:
+                    System.out.println("¡Nos vemos luego!");
+                    break;
                 default:
                     System.out.println("¡Opción Invalida!");
                     break;
